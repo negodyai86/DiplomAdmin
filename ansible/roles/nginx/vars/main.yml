@@ -1,0 +1,4 @@
+---
+# vars file for nginx
+src_index_templates: "/opt/ansible/roles/nginx/templates/index.j2"
+dest_index: "/var/www/html/index.html"

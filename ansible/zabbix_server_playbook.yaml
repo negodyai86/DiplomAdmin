@@ -1,0 +1,9 @@
+---
+- hosts: zabbix_server
+  vars_files:
+    - /opt/ansible/roles/zabbix-server/vars/main.yml
+  remote_user: netology
+  become: yes
+  become_method: sudo
+  roles:
+    - zabbix-server
