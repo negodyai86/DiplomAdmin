@@ -195,10 +195,10 @@ Ansible-vault позволил безопасно хранить и управл
 
 Группы безопасности : 
 
-'aleks-balancer: Разрешён внешний HTTP-трафик (порт 80) и доступ для healthcheck на 30080.'
-'aleks-private: Разрешён трафик на порты для balancer, elasticsearch, filebeat, zabbix-agent.'
-'aleks-public: Открыт доступ к портам zabbix, zabbix-agent, kibana.'
-'aleks-gw: Разрешён SSH-доступ (порт 22), что подходит для административного подключения.'
+- `aleks-balancer: Разрешён внешний HTTP-трафик (порт 80) и доступ для healthcheck на 30080.`
+- `aleks-private: Разрешён трафик на порты для balancer, elasticsearch, filebeat, zabbix-agent.`
+- `aleks-public: Открыт доступ к портам zabbix, zabbix-agent, kibana.`
+- `aleks-gw: Разрешён SSH-доступ (порт 22), что подходит для административного подключения.`
 
 </details>
 
