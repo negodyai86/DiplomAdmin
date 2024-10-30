@@ -200,16 +200,6 @@ Ansible-vault позволил безопасно хранить и управл
 - `aleks-public: Открыт доступ к портам zabbix, zabbix-agent, kibana.`
 - `aleks-gw: Разрешён SSH-доступ (порт 22), что подходит для административного подключения.`
 
-</details>
-<summary> Старый вариант </summary>
-
-![09_20SG](https://github.com/negodyai86/DiplomAdmin/blob/main/img/группы_безопасности_1.1.png)
-</details>
-<summary> Измененный вариант </summary>
-</details>
-
-![09_20SG](https://github.com/negodyai86/DiplomAdmin/blob/main/img/группы_безопасности_1.png)
-</details>
 <summary> Запущеная инфраструктура </summary>
 </details>
 
