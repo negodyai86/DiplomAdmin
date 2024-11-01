@@ -61,7 +61,7 @@ resource "yandex_compute_instance" "web-server-nginx-1" {
   }
   network_interface {
     subnet_id          = yandex_vpc_subnet.subnet1.id
-    nat                = true
+    nat                = false
     ip_address         = "192.168.1.24"
     security_group_ids = [yandex_vpc_security_group.aleks-private.id]
   }
@@ -92,7 +92,7 @@ resource "yandex_compute_instance" "web-server-nginx-2" {
   }
   network_interface {
     subnet_id          = yandex_vpc_subnet.subnet2.id
-    nat                = true
+    nat                = false
     ip_address         = "192.168.2.33"
     security_group_ids = [yandex_vpc_security_group.aleks-private.id]
   }
@@ -155,7 +155,7 @@ resource "yandex_compute_instance" "elast" {
   }
   network_interface {
     subnet_id          = yandex_vpc_subnet.subnet1.id
-    nat                = true
+    nat                = false
     ip_address         = "192.168.1.21"
     security_group_ids = [yandex_vpc_security_group.aleks-private.id]
   }
